@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
+    "brain-even": "bin/brain-even.js",
     "brain-games": "bin/brain-games.js"
   },
   "scripts": {
@@ -13,6 +14,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "brain-even": "^1.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
   }
 }

@@ -29,7 +29,7 @@ const Ame = () => {
   let correctAnswersCount = 0;
 
   while (correctAnswersCount < 3) {
-    const progressionLength = Math.floor(Math.random() * 6) + 5; // Random length between 5 and 10
+    const progressionLength = Math.floor(Math.random() * 6) + 5;
     const start = Math.floor(Math.random() * 50) + 1;
     const diff = Math.floor(Math.random() * 10) + 1;
 

@@ -21,7 +21,7 @@ const hideRandomElement = (progression) => {
   };
 };
 
-const Ame = () => {
+const progressiong = () => {
   console.log('Welcome to the Brain Games!');
   const name = user();
   console.log('What number is missing in the progression?');
@@ -54,6 +54,4 @@ const Ame = () => {
   }
 };
 
-Ame();
-
-export default Ame;
+progressiong();

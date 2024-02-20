@@ -15,7 +15,7 @@ const isPrime = (number) => {
   return true;
 };
 
-const Ame = () => {
+const primeg = () => {
   console.log('Welcome to the Brain Games!');
   const name = user();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
@@ -46,6 +46,4 @@ const Ame = () => {
   }
 };
 
-Ame();
-
-export default Ame;
+primeg();

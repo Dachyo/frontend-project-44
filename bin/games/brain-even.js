@@ -2,7 +2,7 @@
 import readlineSync from 'readline-sync';
 import user from '../../src/cli.js';
 
-const Ame = () => {
+const eveng = () => {
   console.log('Welcome to the Brain Games!');
   const name = user();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
@@ -32,4 +32,4 @@ const Ame = () => {
   }
 };
 
-Ame();
+eveng();

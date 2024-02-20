@@ -7,7 +7,7 @@ const isPrime = (number) => {
   if (number <= 1) {
     return false;
   }
-  for (let i = 2; i <= Math.sqrt(number); i ++) {
+  for (let i = 2; i <= Math.sqrt(number); i += 1) {
     if (number % i === 0) {
       return false;
     }
@@ -33,7 +33,7 @@ const Ame = () => {
 
     if (answer === correctAnswer) {
       console.log('Correct!');
-      correctAnswersCount = correctAnswersCount + 1;
+      correctAnswersCount += correctAnswersCount + 1;
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);

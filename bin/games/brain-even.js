@@ -16,7 +16,7 @@ const Ame = () => {
 
     const isEven = number % 2 === 0;
     const isCorrect = (isEven && answer === 'yes') || (!isEven && answer === 'no');
-    
+
     if (isCorrect) {
       console.log('Correct!');
       correctAnswersCount += 1;
@@ -33,5 +33,3 @@ const Ame = () => {
 };
 
 Ame();
-
-export default Ame;

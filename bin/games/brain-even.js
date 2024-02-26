@@ -32,5 +32,3 @@ const eveng = () => {
 };
 
 eveng();
-
-export default eveng;

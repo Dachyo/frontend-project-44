@@ -21,7 +21,7 @@ const eveng = () => {
       console.log('Correct!');
       correctAnswersCount += 1;
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${isEven ? 'no' : 'yes'}'.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${isEven ? 'yes' : 'no'}'.`);
       console.log(`Let's try again, ${name}!`);
       break;
     }

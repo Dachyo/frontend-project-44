@@ -19,7 +19,6 @@ const calculate = (num1, operator, num2) => {
 };
 
 const Ame = () => {
-  console.log('Welcome to the Brain Games!');
   const name = user();
   console.log('What is the result of the expression?');
 

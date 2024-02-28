@@ -22,7 +22,6 @@ const hideRandomElement = (progression) => {
 };
 
 const progressiong = () => {
-  console.log('Welcome to the Brain Games!');
   const name = user();
   console.log('What number is missing in the progression?');
 

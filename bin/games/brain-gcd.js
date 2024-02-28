@@ -15,7 +15,6 @@ const gcd = (num1, num2) => {
 };
 
 const gcdg = () => {
-  console.log('Welcome to the Brain Games!');
   const name = user();
   console.log('Find the greatest common divisor of given numbers.');
 

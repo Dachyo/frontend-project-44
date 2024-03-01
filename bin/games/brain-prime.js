@@ -32,7 +32,7 @@ const primeg = () => {
 
     if (answer === correctAnswer) {
       console.log('Correct!');
-      correctAnswersCount += correctAnswersCount + 1;
+      correctAnswersCount += 1;
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
